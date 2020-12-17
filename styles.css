@@ -1,0 +1,13 @@
+div#cadastro{
+    height: 100%;
+    width: 400px;
+    text-align: center;
+}
+
+div.result-box.hide{
+    display: none;
+}
+
+div.quiz-box.hide{
+    display: none;
+}
