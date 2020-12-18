@@ -9,26 +9,28 @@
     <link  href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="quiz-box">
-        <h1>Quiz</h1>
+    <div class="fundo">
+        <div class="quiz-box">
+            <h3>Quiz</h3>
 
-        <div class="questionText"></div>
+            <div class="questionText"></div>
 
-        <div class="questionOptions">
+            <div class="questionOptions">
 
+            </div>
+
+            <div class="next-question">
+                <button class="btn btn-info" onclick="next()">Próxima Questão</button>
+            </div>
         </div>
-
-        <div class="next-question">
-            <button class="next" onclick="next()">Próxima Questão</button>
+        <div class="fundoResultado">
+            <div class="result-box hide">
+                <h1>Resultado</h1>
+                <h2>Jogador: <span class="name-player"></span></h2>
+                <h2>Total de acertos: <span class="total-question"></span></h2>
+            </div>
         </div>
     </div>
-    
-    <div class="result-box hide">
-        <h1>Resultado</h1>
-        <h2>Player: <span class="name-player"></span></h2>
-        <h2>Total de acertos: <span class="total-question"></span></h2>
-    </div>
-
     <script src="cadastrar.js"></script>
     <script src="questions.js"></script>
     <script src="funcoes.js"></script>

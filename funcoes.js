@@ -56,11 +56,11 @@ function getResult(element){
     const id = parseInt(element.id)
 
     if(id === currentQuestion.resposta){
-        element.classList.add("correto")
+        element.classList.add("escolhida")
         corretas++
     }
     else{
-        element.classList.add("errado")
+        element.classList.add("escolhida")
     }
 
     tentativas++
