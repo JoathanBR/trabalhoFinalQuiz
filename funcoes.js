@@ -93,6 +93,7 @@ function quizOver(){
 }
 
 function quizResult(){
+    resultBox.querySelector(".name-player").innerHTML = localStorage.getItem("nome")
     resultBox.querySelector(".total-question").innerHTML = corretas
 }
 
