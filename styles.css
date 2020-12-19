@@ -6,6 +6,12 @@ h1, h2, h3, div{
     color: white;
 }
 
+img.logo{
+    width: 300px;
+    height: 120px;
+}
+
+
 div#cadastro{
     background-color: #1552b2;
     position: relative;
@@ -66,4 +72,36 @@ div.fundo{
     justify-content: center;
     align-items: center;
     margin: 0px;
+}
+
+audio{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+}
+
+button#audio{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+div.butaoAudio{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 0px;
+}
+
+
+img.som{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button.btn.btn-white{
+    padding: 0px;
 }

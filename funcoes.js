@@ -107,3 +107,13 @@ function paginaInicial(){
     localStorage.setItem('nome', '')
     window.location.href = "./cadastro.html"
 }
+
+let ligado = document.getElementById('playerAudio')
+
+function tocarAudio(){
+    ligado.play()
+}
+
+function pausarAudio(){
+    ligado.pause()
+}

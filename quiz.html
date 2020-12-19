@@ -7,9 +7,21 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link  href="styles.css" rel="stylesheet">
+
 </head>
 <body>
     <div class="fundo">
+        
+        <audio controls loop autoplay id="playerAudio">
+            <source src="audio/originalTetrisThemeTetrisSoundtrack.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio tag.
+        </audio>
+
+        <div class="butaoAudio">
+            <button class="btn btn-white"  onclick="tocarAudio()"><img class="som" id="ligado" src="imagens/som.png" alt="Som ligado"></button>
+            <button class="btn btn-white"  onclick="pausarAudio()"><img class="som" id="parado" src="imagens/mutado.png" alt="Som Desligado"></button>
+        </div>
+
         <div class="quiz-box">
             <h3>Quiz</h3>
 
@@ -25,6 +37,7 @@
         </div>
         <div class="fundoResultado">
             <div class="result-box hide">
+                <div><img src="imagens/virusQuiz.png" alt="Logo" class="logo"></div>
                 <h1>Resultado</h1>
                 <h2>Jogador: <span class="name-player"></span></h2>
                 <h2>Total de acertos: <span class="total-question"></span></h2>
