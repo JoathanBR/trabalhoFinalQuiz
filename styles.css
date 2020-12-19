@@ -45,9 +45,12 @@ div.option{
     border-radius: 10px;   
 }
 
-div.option.escolhida.respondida{
+div.option.escolhida{
     background-color: #a239ca;
     color: white;
+}
+div.option.respondida{
+    pointer-events: none;
 }
 
 div.fundo{

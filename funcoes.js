@@ -101,3 +101,9 @@ window.onload = function(){
     setAvailableQuestion()
     getNewQuestion()
 }
+
+function paginaInicial(){
+    corretas = 0
+    localStorage.setItem('nome', '')
+    window.location.href = "./cadastro.html"
+}
