@@ -20,5 +20,17 @@ const quiz = [
         q: 'Diante da Pandemia, qual é o melhor meio para evitar as Fake News?',
         options: ['Acreditar de cara na primeira informação que foi compartilhada', 'Não ler a notícia toda para verificar as informações', 'Verificar o site oficial do Ministério da Saúde do Brasil para verificar suas orientações contra o vírus e contra a desinformação, além de pesquisar mais de uma fonte sobre determinado conteúdo', 'Não verificar o site que compartilhou a informação'],
         resposta: 2
+    },    {
+        q: 'Todas as informações que circulam sobre a COVID-19 são corretas?',
+        options: ['Verdade', 'Falso'],
+        resposta: 1
+    },   {
+        q: 'Idosos, pessoas com o sistema imunológico comprometido e pessoas com condições médicas pré-existentes (como pressão alta, doenças cardíacas, doenças pulmonares, câncer ou diabete) são grupos de risco?',
+        options: ['Verdade', 'Falso'],
+        resposta: 0
+    },    {
+        q: 'Quais meios foram essenciais para a proteção da vida dos trabalhadores e manter a empresas em atividades?',
+        options: ['Continuar trabalhando de forma presencial e sem o uso de proteção contra o Coronavírus', 'Continuar trabalhando de forma presencial e usando apenas álcool em gel', 'Continuar trabalhando pois o Coronavírus é apenas uma gripezinha' ,'A adoção do trabalho remoto, teletrabalho e o trabalho a distância'],
+        resposta: 3
     }
 ]
