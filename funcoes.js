@@ -9,7 +9,7 @@ let currentQuestion
 let availableQuestion = []
 let availableOptions = []
 let corretas = 0
-let tentativas = 0
+
 
 function setAvailableQuestion(){
     const totalQuestion = quiz.length
@@ -63,7 +63,6 @@ function getResult(element){
         element.classList.add("escolhida")
     }
 
-    tentativas++
     unclickableOptions()
 }
 
